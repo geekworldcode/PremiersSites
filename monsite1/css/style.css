@@ -1,0 +1,190 @@
+/*
+fichier style du site monsite1
+css/style.css
+*/
+h1{
+    color: beige;
+    font-size: 75px;
+    font-style: italic;
+}
+
+
+
+body{
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.vertgras{
+    color:rgb(239, 21, 21);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.vertgras{
+ text-decoration: overline!important;
+}
+
+button{
+    background-color: red;
+    font-size: 18px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.arcade, #arcade{
+    background-image:url(../images/sallesdarcade.jpg) ;
+    background-size:cover;
+}
+
+#div1{
+    float: left;
+    height: 300px;
+    border: 1px solid white;
+}
+
+.sallearcade, #sallearcade{
+    background-image:url(../images/R.jpg) ;
+    background-size:cover;
+}
+
+.game, #game{
+    background-image:url(../images/OIP.jpg) ;
+    background-size:cover;
+}
+
+#div2{
+    float: right;
+    height: 300px;
+    border: 1px solid white;
+}
+
+.geekzone{
+    color: rgb(0, 174, 205);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.w_25{
+    width: 25%;
+}
+
+.w_50{
+    box-sizing: border-box;
+    width: 50%;
+    float: left; 
+
+}
+
+.w_10{
+    width: 10%;
+}
+
+.w_75{
+    width: 75%;
+}
+
+.w_90{
+    width: 90%;
+}
+
+.noborder{
+    border: none;
+    background-color: transparent;
+}
+
+.border_1{
+    border: 1px solid #ffffff;
+}
+
+td,th{
+    border: 1px solid #ffffff;
+}
+
+.border_white{
+    border: 2px solid #ffffff;
+}
+
+.border_blue{
+    border: 2px solid blue;
+}
+
+.border_red{
+    border: 2px solid red;
+}
+
+.background_grey{
+    background-color: #cecece;
+}
+
+.image_mini{
+    width: 75px;
+    height: 75px;
+}
+
+.fond, #fond{
+    background-image:url(../images/fond.jpg);
+    background-size:cover;
+}
+
+#div3{
+    float: left;
+    height: 400px;
+    width: 700px;
+    border: none;
+}
+
+.name, #name{
+    color: rgb(12, 217, 239);
+    font-size: 60px;
+    border: 5px solid black;
+    font-style: oblique;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.row{
+    clear: both;
+}
+
+.f3{
+    font-size: 3rem;
+}
+
+.f2{
+    font-size: 2rem;
+}
+
+label{
+    min-width: 200px;
+}
+
+.fs, #fs{
+    font-size: 40px;
+}
+
+.white , .fa {
+    color : #FFFFFF;
+}
